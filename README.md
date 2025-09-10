@@ -6,7 +6,7 @@
 
 - Unified VT-like API for querying file, URL, IP, and domain intelligence
 - Uses Pydantic schemas for robust data validation and serialization
-- **Powered by [fastmcp](https://github.com/rootm/fastmcp):**
+- **Powered by [fastmcp](https://gofastmcp.com/getting-started/welcome):**
 - **Unified API layer:** Directly use functions from `abusech_intel.py` to obtain correlated intelligence from abuse.ch platforms—serving as a unified API layer since the platforms themselves do not provide one
 
 ## Requirements
