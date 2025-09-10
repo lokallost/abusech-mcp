@@ -1,12 +1,11 @@
 [project]
 name = "abusech-mcp"
 version = "0.1.0"
-description = "AbuseCh CTI MCP server for threat intelligence"
+description = "MCP server fetching Threat Intelligence from different abuse.ch Platforms"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.10"
 dependencies = [
-    "httpx>=0.28.1",
-    "mcp[cli]>=1.4.1",
+    "fastmcp",
     "aiohttp>=3.9.0",
     "asyncio>=3.4.3",
 ]
